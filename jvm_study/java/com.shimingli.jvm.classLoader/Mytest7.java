@@ -12,7 +12,7 @@ public class Mytest7 {
         Class clazz = Class.forName("java.lang.String");
         System.out.println(clazz.getClassLoader());
 
-        Class c = Class.forName("JVM.JUC");
+        Class c = Class.forName("com.shimingli.jvm.classLoader.C");
         System.out.println(c.getClassLoader());
 
 
