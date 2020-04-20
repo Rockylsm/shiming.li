@@ -9,7 +9,7 @@ package com.shimingli.jvm.classLoader;
 public class MyTest18 {
     public static void main(String[] args) {
         System.out.println(System.getProperty("sun.boot.class.path"));
-        System.out.println(System.getProperty("java.ext.dirs"));
+        System.out.println(System.getProperty("java.ext.dirs")); //加载 .jar 包中的class文件
         System.out.println(System.getProperty("java.class.path"));
     }
 }
