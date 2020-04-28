@@ -37,6 +37,11 @@ public class MyTest16 extends ClassLoader{
         this.setClassName(className);
     }
 
+
+    public MyTest16(ClassLoader classLoader){
+        super(classLoader);
+    }
+
     public MyTest16(ClassLoader classLoader, String className){
         super(classLoader);
         this.setClassName(className);
